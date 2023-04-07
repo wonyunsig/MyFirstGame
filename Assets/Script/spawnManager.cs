@@ -12,17 +12,18 @@ public class spawnManager : MonoBehaviour
         {
             GameObject box = (GameObject)Instantiate(Box, new Vector3(randomX, 1.1f, 0f), Quaternion.identity);
         }
+        
         float randomY = Random.Range(-5f, 5f);
         if (enableSpawn)
         {
-            GameObject box = (GameObject)Instantiate(Box, new Vector3(randomY, 1.1f, 0f), Quaternion.identity);
+            GameObject box = (GameObject)Instantiate(Box, new Vector3(randomY, 0f, 1.1f), Quaternion.identity);
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnBox", 3, 1);
+        InvokeRepeating("SpawnBox", 3, 3);
     }
 
     // Update is called once per frame
