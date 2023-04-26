@@ -4,39 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5094fcc-96ce-4ef1-80fc-11b34d4b4ff5" name="Changes" comment="" />
+    <list default="true" id="e5094fcc-96ce-4ef1-80fc-11b34d4b4ff5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Center.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Center.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MyFirstGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MyFirstGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Background Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Background Grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Backgrounds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Backgrounds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Boom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Boom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullets.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Enemies.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Fade Black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Fade Black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Items.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Player.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/User Interface.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/User Interface.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/App Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/App Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor/ReadmeEditorBE4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor/ReadmeEditorBE4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/ReadmeBE4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/ReadmeBE4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ScenesManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2OsQ7myi3wTyMsJ9QEepjOsURDO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\YS\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\YS\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\YS\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Administrator\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Games\Unity\2021.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Games\Unity\MyFirstGame -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Games\Unity\MyFirstGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -44,7 +98,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Games\Unity\2021.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Games\Unity\MyFirstGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Games\Unity\MyFirstGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -81,6 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1682346676807</updated>
       <workItem from="1682346692758" duration="3579000" />
+      <workItem from="1682383723754" duration="1286000" />
+      <workItem from="1682487186034" duration="16000" />
+      <workItem from="1682489407653" duration="2771000" />
     </task>
     <servers />
   </component>
