@@ -6,55 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5094fcc-96ce-4ef1-80fc-11b34d4b4ff5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Center.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Center.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crehera/2D Pixelart Spaceship Examples/Ship One/PixelArtSpaceShipOne.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crehera/2D Pixelart Spaceship Examples/Ship One/PixelArtSpaceShipOne.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MyFirstGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MyFirstGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Background Grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Background Grid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Backgrounds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Backgrounds.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Boom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Boom.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Bullets.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Enemies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Enemies.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Explosion.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Fade Black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Fade Black.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Items.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/User Interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/User Interface.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/App Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/App Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Demo/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor/ReadmeEditorBE4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/Editor/ReadmeEditorBE4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/ReadmeBE4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/ReadMe/Scripts/ReadmeBE4.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vertical 2D Shooting BE4/Readme.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +91,8 @@
       <workItem from="1682383723754" duration="1286000" />
       <workItem from="1682487186034" duration="16000" />
       <workItem from="1682489407653" duration="2771000" />
+      <workItem from="1682554758625" duration="5465000" />
+      <workItem from="1682564367017" duration="789000" />
     </task>
     <servers />
   </component>
