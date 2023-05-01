@@ -1,37 +1,61 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public const float moveSpeed = 7.5f; //움직이는 속도 정의
-    public bool isTouchTop;
-    public bool isTouchBottom;
-    public bool isTouchLeft;
-    public bool isTouchRight;
-
-    private void Start()
-    {
-        
-    }
+    [SerializeField] private KeyCode keyCodeAttack = KeyCode.Space;
+    [SerializeField] private string nextSceneName;
+    public float speed;
+    private Bullet bullet;
     
+    private Animator anim;
+    public GameObject explosionPrefab;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+        bullet = GetComponent<Bullet>();
+    }
+
     private void Update()
     {
-        moveControl();
-        //캐릭터를 움직이는 함수를 프레임마다 호출
-    }
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+        Vector3 curPos = transform.position;
+        Vector3 nextPos = new Vector3(x, y, 0) * speed * Time.deltaTime;
+        
 
-    void moveControl()
+        if (Input.GetKeyDown(keyCodeAttack))
+        {
+            bullet.StartFiring();
+        }
+        else if (Input.GetKeyUp(keyCodeAttack))
+        {
+            bullet.StopFiring();
+        }
+
+        transform.position = curPos + nextPos;
+
+        if (Input.GetButtonDown("Horizontal") || Input.GetButtonUp("Horizontal"))
+        {
+            anim.SetInteger("Input", (int)x);
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
     {
-        float distanceX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        //아까 지정한 Axes를 통해 키의 방향을 판단하고 속도와 프레임 판정을 곱해 이동량을 결정
-        this.gameObject.transform.Translate(distanceX, 0, 0);
-        //이동량만큼 실제로 이동을 반영
-        float distanceY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-        //아까 지정한 Axes를 통해 키의 방향을 판단하고 속도와 프레임 판정을 곱해 이동량을 결정
-        this.gameObject.transform.Translate(0, distanceY, 0);
-        //이동량만큼 실제로 이동을 반영
+        if (other.gameObject.tag.Equals("Enemy"))
+            //부딪힌 객체의 태그를 비교해서 적인지 판단합니다.
+        {
+            /* 여기서 부터 추가된 부분*/
+            Instantiate(explosionPrefab,
+                this.transform.position,
+                Quaternion.identity);
+            Destroy(other.gameObject);
+            //적을 파괴합니다.
+            Destroy(this.gameObject);
+            //자신을 파괴합니다.
+        }
     }
 }
